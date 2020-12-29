@@ -1,0 +1,53 @@
+.pdetail_right h1 {
+    color: #000;
+    font-size: 20px;
+    font-family: 'SegoeUI-Bold',Arial,Sans-Serif;
+    font-weight: normal;
+    margin: 0 0 10px;
+}
+.inner_container p {
+    color: #444;
+    font-family: 'SegoeUI-Regular',Arial,Sans-Serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 0 10px;
+    line-height: 30px;
+}
+.inner_container h1 {
+    color: #0379b7;
+    font-family: 'SegoeUI-SemiBold',Arial,Sans-Serif;
+    font-weight: normal;
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+.pdetail_right a.view {
+    display: inline-block;
+    clear: both;
+    height: 40px;
+    color: #fff;
+    background: #4681cf;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'SegoeUI-SemiBold',Arial,Sans-Serif;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 10px 0 0 0;
+    padding: 0 20px;
+}
+.pdetail_right a.view:hover {
+    background: #295fa6;
+}
+.dropdown a.dropdown-toggle:before{
+    display: none;
+}
+
+#showmore { display: block; background: rgb(3, 121, 183); color: #fff; height: 35px; border: 0; border-radius: 3px; padding: 0; font-weight: 400; text-transform: capitalize; width: 200px; margin: 25px auto;}#showmore:hover {background: rgb(2, 95, 144);}
+
+.fa-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+
+.fa-angle-up:before {
+    content: "\f106";
+}

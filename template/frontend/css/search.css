@@ -1,0 +1,74 @@
+form#search {
+    margin: 20px 0;
+}
+
+form#search input[type="submit"] {
+    background: #4681CF;
+    border: solid 1px #4681CF;
+    margin: 10px 0;
+    padding: 5px 20px;
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+}
+
+form#search input[type="submit"]:hover {
+    background: #2578B3;
+}
+
+#reset:hover{background: #2578B3;}
+
+#reset {
+    background: #4681CF;
+    padding: 5px 20px;
+    border: solid 1px #4681CF;
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    margin: 10px 0;
+}
+.selectfield label {
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+.selectfield .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 100%;
+    display: block;
+}
+
+.selectfield .btn-group {
+    display: block;
+}
+
+.selectfield .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
+    color: #000;
+}
+
+.selectfield span.bs-caret {
+    color: #000;
+}
+.selectfield .btn.dropdown-toggle {
+    width: 100%;
+    display: block;
+    float: none;
+    color: #000;
+    text-align: left;
+}
+
+.selectfield span.multiselect-selected-text {
+    color: #000;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.selectfield b.caret {
+    color: #000;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
